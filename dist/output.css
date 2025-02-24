@@ -237,11 +237,17 @@
   .end-2 {
     inset-inline-end: calc(var(--spacing) * 2);
   }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
+  }
   .isolate {
     isolation: isolate;
   }
   .isolation-auto {
     isolation: auto;
+  }
+  .z-\[9999\] {
+    z-index: 9999;
   }
   .z-auto {
     z-index: auto;
